@@ -566,7 +566,29 @@ img{
 
 
 /*==================== PORTFOLIO ====================*/
+.art{
+    width: 420px;
+    text-align: center;
+}
 
+.art_img{
+    border-radius: 0.5rem;
+    height: 420px;
+    width: auto;
+    box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+    border-color: var(--text-color);
+    border: 2px solid var(--text-color);
+    overflow: hidden;
+    transition: .4s;
+}
+
+.art_img:hover{
+    transform: scale(1.05);
+}
+
+.gallery_container{
+    justify-content: center;
+}
 
 /*==================== PROJECT IN MIND ====================*/
 
@@ -737,6 +759,7 @@ img{
     .about_container,
     .skills_container,
     .contact_container,
+    .gallery_container,
     .footer_container{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -797,6 +820,7 @@ img{
 
     .home_container{
         grid-row-gap: 5rem;
+        height: 100vh;
     }
     .home_content{
         padding-top: 5.5rem;

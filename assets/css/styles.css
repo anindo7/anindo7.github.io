@@ -317,6 +317,11 @@ img{
     font-weight: var(--font-medium);
     color: var(--text-color);
     margin-bottom: var(--mb-0-75);
+    padding-top: var(--mb-0-5);
+}
+
+.home_icon{
+    font-size: 2rem;
 }
 
 .home_description{
